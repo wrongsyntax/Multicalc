@@ -1,0 +1,91 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom left, #ffcc70 0%, #c850c0 60%, #4158d0 100%);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.outer-grid {
+    vertical-align: middle;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 100%;
+}
+
+.selector {
+    grid-row-gap: 10px;
+    grid-template-columns: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.type {
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 20ch;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #2bd2ff;
+    transition: 0.3s;
+}
+
+.type:hover {
+    background: #2bff88;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.calculator {
+    background: #151f55;
+    margin: 15% 15% 20%;
+    border-radius: 5%;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+#answer {
+    font-size: 40px;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+#previousCalc {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.calcGrid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 484px;
+    vertical-align: bottom;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
